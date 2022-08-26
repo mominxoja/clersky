@@ -1,0 +1,193 @@
+.main__card{
+    margin: auto;
+    
+    &__text{
+
+        h2{
+
+       
+        font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+/* identical to box height, or 112% */
+
+text-align: center;
+
+color: #163A24;
+ }
+
+ 
+p{
+
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+text-align: center;
+color: #163A24;
+}
+}
+
+&__cardlar{
+    
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    
+    &__kard2{
+        // color: black;
+        margin-inline: 40px;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.334);
+        &__text{
+     
+
+            li{
+               
+                h3{
+  
+                    font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+                
+                    }
+
+                font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #163A24;
+
+            }
+
+        }
+
+
+    }
+
+     
+        &__kard{
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.334);
+            &__text{
+     
+                text-align: left;
+     
+                li{
+     margin-inline: 100px;
+                    h3{
+                        font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #163A24;
+                    
+                        }
+    
+                    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #163A24;
+    
+                }
+
+            }
+  
+  
+        }
+  
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+   
+    
+    .main__card__cardlar{
+    
+        text-align: center;
+        display:block;
+        
+        &__kard2{
+            :hover:active{
+                opacity: 0.3;
+            }
+            width: 300px;
+            margin-left: 100px;
+            &__text{
+         
+     
+                li{
+                   
+                    h3{
+     
+                        font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #163A24;
+                    
+                        }
+    
+                    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #163A24;
+    
+                }
+    
+            }
+    
+    
+        }
+    
+         
+            &__kard{
+                margin-left: 100px;
+                width: 300px;
+                &__text{
+         
+                    li{
+         
+                        h3{
+         
+                            font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 32px;
+        color: #163A24;
+                        
+                            }
+        
+                        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #163A24;
+        
+                    }
+    
+                }
+      
+      
+            }
+      
+        }
+        
+    }

@@ -1,0 +1,53 @@
+.main__bir{
+    margin: 0 auto;
+    display: flex;
+    background-color: #163A24;
+    &__text{margin-top:100px ;
+        margin-left: 200px;
+        p{color: aliceblue;
+            width: 350px;
+        }
+        h1{
+            width: 350px;
+            color: aliceblue;
+            font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 55px;
+        }
+    }
+
+}
+
+@media screen and (max-width:500px){
+    
+        .main__bir{
+            &__img{
+                img{
+                    width: 450px;
+                    height: 450px;
+                    margin-left: 15px;
+                }
+            }
+            margin: -100px auto;
+            display: block;
+            background-color: #163A24;
+            &__text{
+                margin-left: 100px;
+                p{color: aliceblue;
+                    width: 300px;
+                }
+                h1{
+                    width: 300px;
+                    color: aliceblue;
+                    font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+                }
+            }
+        
+}
+}

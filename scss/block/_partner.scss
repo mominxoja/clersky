@@ -1,0 +1,55 @@
+.main__partner{
+    &__h3{
+font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+text-align: center;
+color: #163A24;
+
+    }
+    &__ul{
+        width: 900px;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        li{:hover{
+            background-color: rgba(92, 95, 98, 0.276);
+        }
+            margin-inline: 40px;
+        }
+    }
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width:500px){
+    .main__partner{
+        &__h3{
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #163A24;
+    
+        }
+        &__ul{
+           
+            width: 200px;
+            margin: 0 auto;
+            align-items: center;
+            display: block;
+            li{ :hover:active{
+                border: 2px solid ;
+                background-color: rgba(125, 125, 125, 0.329);
+            }
+                margin-top: 50px;
+            }
+        }
+        width: 95%;
+        display: block;
+    }
+}
